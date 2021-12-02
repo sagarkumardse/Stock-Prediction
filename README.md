@@ -31,3 +31,24 @@ The significant phrases used in TF-IDF are:
 - TF IDF = TF*IDF
 
 ## RESULTS
+
+Lets see how our sentiment is comming up, below is the word cloud (for visulization) of all the words present in the IEEE labelled tweets 
+
+![Word Cloud of Tweets](https://github.com/sagarkumardse/Stock-Prediction/blob/main/wordcloud.PNG?raw=true)
+Now as we have saved tweets date wise we find the sentiment of those, here is the final columns we took into account, adding them to the historical with a inner join with dates, and predict the final prices...
+<p align="center">
+  <img src="https://github.com/sagarkumardse/Stock-Prediction/blob/main/sentiment.PNG?raw=true" alt="Sentiment"/>
+    <img src="https://github.com/sagarkumardse/Stock-Prediction/blob/main/final.PNG?raw=true" alt="Price predict"/>
+</p>
+
+That's it. We have done it.
+## Scope of improvemnt 
+This model is can be improved in many ways like increasing sentiment score, trying different models for final prediction, taking into account general news headlines along with twitter, basic fundamental analysis weight for predicting confidence of predicted scores and so on. 
+Report an issue if you find anything unsuall, and also you can mail suggesed models techniques you find that can improve the model at b19138@students.iitmandi.ac.in
+
+Till then, happy learning, and here is a sneek a peak of your future self. 
+<p align="center">
+  <img src="https://gcaptain.com/wp-content/uploads/2021/01/ship-stonks.jpg" alt="stonks"/>
+</p>
+
+
